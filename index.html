@@ -258,6 +258,280 @@
     <script src="https://cdn.jsdelivr.net/npm/vanilla-cookieconsent@3/dist/cookieconsent.umd.js"></script>
     <!-- Mickidum Accessibility Toolbar -->
     <script src="https://cdn.jsdelivr.net/gh/mickidum/acc_toolbar/acctoolbar/acctoolbar.min.js"></script>
+
+<style data-zappy-section-v2-css="true">
+/* V2 Regenerated Section CSS */
+.home-section-1-section {
+  position: relative;
+  background-color: var(--bg-light);
+  background-image: 
+    radial-gradient(ellipse at 85% 15%, rgba(181, 110, 74, 0.06) 0%, transparent 50%),
+    radial-gradient(ellipse at 15% 85%, rgba(168, 188, 199, 0.08) 0%, transparent 50%),
+    linear-gradient(180deg, #F2EDE6 0%, #E8DDD2 100%);
+  color: var(--text-dark);
+  padding: 100px 24px 80px;
+  overflow: visible;
+  direction: rtl;
+}
+
+.home-section-1-section .section-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  position: relative;
+  z-index: 2;
+}
+
+/* Section Header */
+.home-section-1-section .section-header {
+  margin-bottom: 56px;
+  text-align: start;
+}
+
+.home-section-1-section .section-label {
+  display: inline-block;
+  font-family: 'Manrope', 'Inter', sans-serif;
+  font-size: 0.8rem;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--accent);
+  margin-bottom: 16px;
+  padding-bottom: 8px;
+  border-bottom: 2px solid var(--accent);
+}
+
+.home-section-1-section .section-title {
+  font-family: 'Cormorant Garamond', 'Playfair Display', serif;
+  font-size: 3rem;
+  font-weight: 300;
+  line-height: 1.15;
+  letter-spacing: -0.01em;
+  color: var(--text-dark);
+  margin: 0 0 20px 0;
+}
+
+.home-section-1-section .section-subtitle {
+  font-family: 'Manrope', 'Inter', sans-serif;
+  font-size: 1.05rem;
+  font-weight: 400;
+  line-height: 1.75;
+  color: var(--text-muted);
+  max-width: 640px;
+  margin: 0;
+}
+
+/* Projects Grid */
+.home-section-1-section .projects-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 32px;
+  direction: rtl;
+}
+
+/* Project Card */
+.home-section-1-section .project-card {
+  background: #FFFFFF;
+  border-radius: 0px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.08);
+  overflow: hidden;
+  transition: transform 0.4s cubic-bezier(0.25, 0.1, 0.25, 1), box-shadow 0.4s ease;
+  display: flex;
+  flex-direction: column;
+}
+
+.home-section-1-section .project-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 24px 72px rgba(0, 0, 0, 0.22);
+}
+
+.home-section-1-section .card-image-wrapper {
+  position: relative;
+  width: 100%;
+  height: 260px;
+  overflow: hidden;
+}
+
+.home-section-1-section .card-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.6s cubic-bezier(0.25, 0.1, 0.25, 1);
+}
+
+.home-section-1-section .project-card:hover .card-image {
+  transform: scale(1.05);
+}
+
+.home-section-1-section .card-image-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to top, rgba(43, 38, 35, 0.5) 0%, rgba(43, 38, 35, 0.05) 50%, transparent 100%);
+  pointer-events: none;
+  z-index: 1;
+}
+
+.home-section-1-section .card-location-badge {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  background: rgba(255, 255, 255, 0.92);
+  backdrop-filter: blur(6px);
+  color: var(--text-dark);
+  font-family: 'Manrope', 'Inter', sans-serif;
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  padding: 6px 14px;
+  border-radius: 100px;
+  z-index: 2;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+}
+
+.home-section-1-section .card-content {
+  padding: 24px 28px 28px;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.home-section-1-section .card-title {
+  font-family: 'Cormorant Garamond', 'Playfair Display', serif;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.25;
+  color: var(--text-dark);
+  margin: 0 0 8px 0;
+}
+
+.home-section-1-section .card-address {
+  font-family: 'Manrope', 'Inter', sans-serif;
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 1.6;
+  color: var(--text-muted);
+  margin: 0 0 20px 0;
+}
+
+.home-section-1-section .card-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-family: 'Manrope', 'Inter', sans-serif;
+  font-size: 0.85rem;
+  font-weight: 500;
+  letter-spacing: 0.05em;
+  color: var(--text-dark);
+  text-decoration: underline;
+  text-underline-offset: 4px;
+  text-decoration-color: var(--accent);
+  text-decoration-thickness: 1.5px;
+  margin-top: auto;
+  transition: color 0.3s ease, text-decoration-color 0.3s ease;
+}
+
+.home-section-1-section .card-link:hover {
+  color: var(--accent);
+  text-decoration-color: var(--accent);
+}
+
+.home-section-1-section .arrow-icon {
+  display: inline-block;
+  transition: transform 0.3s ease;
+  font-size: 0.9rem;
+}
+
+.home-section-1-section .card-link:hover .arrow-icon {
+  transform: translateX(-4px);
+}
+
+/* Decorative Badge */
+.home-section-1-section .decorative-badge {
+  position: absolute;
+  top: 60px;
+  left: 40px;
+  width: 120px;
+  height: 120px;
+  z-index: 0;
+  pointer-events: none;
+  opacity: 0.85;
+}
+
+.home-section-1-section .decorative-badge svg {
+  width: 100%;
+  height: 100%;
+}
+
+/* Responsive */
+@media (max-width: 1024px) {
+  .home-section-1-section .projects-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+  }
+  .home-section-1-section .section-title {
+    font-size: 2.6rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .home-section-1-section {
+    padding: 80px 16px 60px;
+  }
+
+  .home-section-1-section .projects-grid {
+    grid-template-columns: 1fr !important;
+    gap: 24px;
+  }
+
+  .home-section-1-section .section-header {
+    margin-bottom: 40px;
+  }
+
+  .home-section-1-section .section-title {
+    font-size: 2rem;
+  }
+
+  .home-section-1-section .section-subtitle {
+    font-size: 0.95rem;
+  }
+
+  .home-section-1-section .card-image-wrapper {
+    height: 220px;
+  }
+
+  .home-section-1-section .decorative-badge {
+    top: 30px;
+    left: 16px;
+    width: 80px;
+    height: 80px;
+    opacity: 0.6;
+  }
+
+  .home-section-1-section .card-content {
+    padding: 20px 20px 24px;
+  }
+
+  .home-section-1-section .card-title {
+    font-size: 1.4rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .home-section-1-section {
+    padding: 70px 12px 50px;
+  }
+
+  .home-section-1-section .section-title {
+    font-size: 1.8rem;
+  }
+
+  .home-section-1-section .decorative-badge {
+    display: none;
+  }
+}
+
+</style>
     <link rel="stylesheet" href="/styles.css">
     <script>window.ZAPPY_WEBSITE_ID = "de3c7254-dafd-4dab-be18-c1647377315b"; window.ZAPPY_API_BASE = "https://api.zappy5.com";</script>
 
@@ -899,53 +1173,75 @@
           <stop offset="100%" stop-color="#2B2623" stop-opacity="1"></stop>
         </linearGradient>
       </defs>
-      <path d="M0,80 L0,50 L1200,10 L1200,80 Z" fill="#A8BCC7"></path>
-      <path d="M0,52 Q300,38 600,42 T1200,12" stroke="#B56E4A" stroke-width="1" fill="#A8BCC7" opacity="0.6"></path>
+      <path d="M0,80 L0,50 L1200,10 L1200,80 Z" fill="var(--bg-light)"></path>
+      <path d="M0,52 Q300,38 600,42 T1200,12" stroke="#B56E4A" stroke-width="1" fill="var(--bg-light)" opacity="0.6"></path>
     </svg>
   </div>
 </section>
 
-<section class="min-h-screen py-20 px-6" style="background-color:#A8BCC7;">
-  <div class="max-w-7xl mx-auto">
-    <div class="flex flex-col md:flex-row md:items-end md:justify-between mb-14">
-      <div>
-        <span class="block text-xs uppercase tracking-widest font-semibold mb-2" style="color:#B56E4A;">פורטפוליו</span>
-        <h2 class="text-5xl font-black leading-tight" style="color:#2B2623;">הפרויקטים<br>שלנו</h2>
-      </div>
-      <p class="mt-6 md:mt-0 max-w-sm text-sm leading-relaxed" style="color:#2B2623;">משפחת מקמל מתמחה בתכנון, ייזום וביצוע של פרויקטי נדל"ן יוקרתיים. אנו מביאים ניסיון של עשרות שנים, דיוק ארכיטקטוני ויחס אישי לכל לקוח, מתוך ראייה משפחתית חמה ומקצועית.</p>
+<section class="home-section-1-section" data-layout-spec="Home-section-1" dir="rtl" data-zappy-section="true">
+  <div class="section-container">
+    <div class="section-header">
+      <span class="section-label">פורטפוליו</span>
+      <h2 class="section-title">הפרויקטים<br>שלנו</h2>
+      <p class="section-subtitle">משפחת מקמל מתמחה בתכנון, ייזום וביצוע של פרויקטי נדל"ן יוקרתיים. אנו מביאים ניסיון של עשרות שנים, דיוק ארכיטקטוני ויחס אישי לכל לקוח, מתוך ראייה משפחתית חמה ומקצועית.</p>
     </div>
-    <div class="grid grid-cols-1 md:grid-cols-5 gap-6">
-      <div class="md:col-span-3 group relative overflow-hidden rounded-2xl" style="min-height:480px;">
-        <img src="/assets/site-index-portfolio-image-1.webp" alt="מגדלי מקמל" class="w-full h-full object-cover absolute inset-0 transition-transform duration-700 group-hover:scale-105">
-        <div class="absolute inset-0" style="background:linear-gradient(to top, rgba(43,38,35,0.92) 0%, rgba(43,38,35,0.2) 60%, transparent 100%);"></div>
-        <div class="absolute bottom-0 left-0 right-0 p-8">
-          <span class="text-xs uppercase tracking-widest" style="color:#B56E4A;">תל אביב</span>
-          <h3 class="text-2xl font-bold mt-1 mb-2" style="color:#fff;">מגדלי מקמל – תל אביב</h3>
-          <p class="text-sm mb-4" style="color:#A8BCC7;">שדרות רוטשילד 45, תל אביב-יפו</p>
-          <a href="#" class="inline-block px-5 py-2 rounded-full text-sm font-semibold transition-all duration-300 hover:opacity-90" style="background-color:#B56E4A;color:#fff;">צפייה בפרויקט ←</a>
+
+    <div class="projects-grid">
+      <!-- Project Card 1 -->
+      <article class="project-card">
+        <div class="card-image-wrapper">
+          <img alt="מגדלי מקמל" class="card-image" src="/assets/site-index-portfolio-image-1.webp" style="width: 100%; height: 100%; object-fit: cover; object-position: center;">
+          <div class="card-image-overlay"></div>
+          <span class="card-location-badge">תל אביב</span>
         </div>
-      </div>
-      <div class="md:col-span-2 flex flex-col gap-6">
-        <div class="group relative overflow-hidden rounded-2xl flex-1" style="min-height:220px;">
-          <img src="/assets/site-index-service-image-2-1781987935243-icgbzi.webp?v=1781987937280" alt="הנשיאים 50" class="w-full h-full object-cover absolute inset-0 transition-transform duration-700 group-hover:scale-105">
-          <div class="absolute inset-0" style="background:linear-gradient(to top, rgba(43,38,35,0.9) 0%, transparent 70%);"></div>
-          <div class="absolute bottom-0 left-0 right-0 p-6">
-            <h3 class="text-lg font-bold mb-1" style="color:#fff;">הנשיאים 50</h3>
-            <p class="text-xs mb-3" style="color:#A8BCC7;">שדרות רוטשילד 45, תל אביב-יפו</p>
-            <a href="#" class="text-sm font-semibold" style="color:#B56E4A;">צפייה בפרויקט ←</a>
-          </div>
+        <div class="card-content">
+          <h3 class="card-title">מגדלי מקמל – תל אביב</h3>
+          <p class="card-address">שדרות רוטשילד 45, תל אביב-יפו</p>
+          <a href="#" class="card-link">צפייה בפרויקט <span class="arrow-icon">←</span></a>
         </div>
-        <div class="group relative overflow-hidden rounded-2xl flex-1" style="min-height:220px;">
-          <img src="/assets/site-index-portfolio-image-3.webp" alt="מתחם הבורסה" class="w-full h-full object-cover absolute inset-0 transition-transform duration-700 group-hover:scale-105">
-          <div class="absolute inset-0" style="background:linear-gradient(to top, rgba(43,38,35,0.9) 0%, transparent 70%);"></div>
-          <div class="absolute bottom-0 left-0 right-0 p-6">
-            <h3 class="text-lg font-bold mb-1" style="color:#fff;">מתחם הבורסה – רמת גן</h3>
-            <p class="text-xs mb-3" style="color:#A8BCC7;">שדרות רוטשילד 45, תל אביב-יפו</p>
-            <a href="#" class="text-sm font-semibold" style="color:#B56E4A;">צפייה בפרויקט ←</a>
-          </div>
+      </article>
+
+      <!-- Project Card 2 -->
+      <article class="project-card">
+        <div class="card-image-wrapper">
+          <img alt="הנשיאים 50" class="card-image" src="/assets/site-index-service-image-2-1781987935243-icgbzi.webp?v=1781987937280" style="width: 100%; height: 100%; object-fit: cover; object-position: center;">
+          <div class="card-image-overlay"></div>
+          <span class="card-location-badge">תל אביב</span>
         </div>
-      </div>
+        <div class="card-content">
+          <h3 class="card-title">הנשיאים 50</h3>
+          <p class="card-address">שדרות רוטשילד 45, תל אביב-יפו</p>
+          <a href="#" class="card-link">צפייה בפרויקט <span class="arrow-icon">←</span></a>
+        </div>
+      </article>
+
+      <!-- Project Card 3 -->
+      <article class="project-card">
+        <div class="card-image-wrapper">
+          <img alt="מתחם הבורסה" class="card-image" src="/assets/site-index-portfolio-image-3.webp" style="width: 100%; height: 100%; object-fit: cover; object-position: center;">
+          <div class="card-image-overlay"></div>
+          <span class="card-location-badge">תל אביב</span>
+        </div>
+        <div class="card-content">
+          <h3 class="card-title">מתחם הבורסה – רמת גן</h3>
+          <p class="card-address">שדרות רוטשילד 45, תל אביב-יפו</p>
+          <a href="#" class="card-link">צפייה בפרויקט <span class="arrow-icon">←</span></a>
+        </div>
+      </article>
     </div>
+  </div>
+
+  <!-- Decorative circular badge stamp -->
+  <div class="decorative-badge" aria-hidden="true">
+    <svg viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg" data-no-icon-edit="true">
+      <circle cx="60" cy="60" r="56" fill="none" stroke="var(--accent)" stroke-width="1.5" opacity="0.7"></circle>
+      <circle cx="60" cy="60" r="48" fill="none" stroke="var(--accent)" stroke-width="0.5" opacity="0.3"></circle>
+      <text x="60" y="55" text-anchor="middle" fill="var(--accent)" font-family="serif" font-size="9" font-weight="600" letter-spacing="2" opacity="0.85">משפחת מקמל</text>
+      <text x="60" y="70" text-anchor="middle" fill="var(--accent)" font-family="serif" font-size="9" font-weight="600" letter-spacing="2" opacity="0.85">מורשת של איכות</text>
+      <circle cx="60" cy="60" r="12" fill="var(--accent)" opacity="0.15"></circle>
+      <text x="60" y="64" text-anchor="middle" fill="var(--accent)" font-family="serif" font-size="11" font-weight="700" opacity="0.9">ממ</text>
+    </svg>
   </div>
 </section>
 
