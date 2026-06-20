@@ -7304,6 +7304,19 @@ div[id*="mic-access-tool-box"] button[class*="reset"] * {
 }
 /* /Zappy custom logo size */
 
+
+.navbar {
+  background-color: rgba(43, 38, 35, 0.85) !important;
+  backdrop-filter: blur(12px) !important;
+  -webkit-backdrop-filter: blur(12px) !important;
+  border-bottom: 1px solid rgba(234, 226, 214, 0.15) !important;
+}
+/* zappy-self-heal */
+.navbar { -webkit-backdrop-filter: blur(12px) !important; }
+
+/* zappy-self-heal */
+html body .navbar { -webkit-backdrop-filter: blur(12px) !important; }
+
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
