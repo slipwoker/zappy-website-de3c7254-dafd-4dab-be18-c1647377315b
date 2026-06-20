@@ -352,16 +352,16 @@
   <nav class="navbar" dir="rtl">
   <button class="mobile-toggle" id="mobileToggle" aria-label="Menu">
     <svg class="hamburger-icon" width="24" height="24" viewBox="0 0 24 24" fill="none">
-      <path d="M3 12h18M3 6h18M3 18h18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+      <path d="M3 12h18M3 6h18M3 18h18" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
     </svg>
     <svg class="close-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" style="display: none;">
-      <path d="M18 6L6 18M6 6l12 12" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+      <path d="M18 6L6 18M6 6l12 12" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
     </svg>
   </button>
   
   <button class="phone-header-btn" data-phone="[business_phone]" aria-label="Call">
     <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
-      <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+      <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
     </svg>
   </button>
 
@@ -835,52 +835,55 @@
 </script>
   
   <main id="main">
-    <section data-band-index="0" class="index-hero-section" data-layout-spec="בית-hero" data-hero-type="fullscreen-scrim">
+    <section data-band-index="0" class="index-hero-section" data-layout-spec="בית-hero" data-hero-type="fullscreen-scrim" id="zappy-section-1781987586320-1992" style="position: relative; overflow: hidden; --zappy-bg-overlay: rgba(37, 38, 45, 0.44)" data-zappy-bg-type="video" data-zappy-bg-color="" data-zappy-bg-image="" data-zappy-bg-overlay-color="#25262d" data-zappy-bg-overlay-opacity="44" data-zappy-bg-video-type="mp4" data-zappy-bg-video-url="https://video.wixstatic.com/video/15a664_91e8549050704a91a08dab9370dc88e7/720p/mp4/file.mp4"><div class="zappy-section-video-bg" style="position:absolute;inset:0;z-index:0;overflow:hidden;pointer-events:none;"><div class="zappy-section-video-overlay" style="position:absolute;inset:0;z-index:1;background:rgba(37, 38, 45, 0.44);pointer-events:none;"></div><video class="zappy-section-video" autoplay="" muted="" loop="" playsinline="" style="position:absolute;top:50%;left:50%;min-width:100%;min-height:100%;transform:translate(-50%, -50%);object-fit:cover;z-index:0;">
+  <source src="https://video.wixstatic.com/video/15a664_91e8549050704a91a08dab9370dc88e7/720p/mp4/file.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video></div>
   <!-- Full-bleed background image -->
-  <img loading="eager" fetchpriority="high" data-hero-bg="true" data-placeholder="index-hero-image-1" data-context="A completed luxury residential building in Israel at golden hour, viewed from a slightly elevated perspective, warm sunlight casting long shadows across the facade, modern architecture with glass balconies and stone cladding, Mediterranean landscaping, cinematic depth of field, 4K quality" width="1200" height="600" src="/assets/site-index-hero-image-1.webp" alt="בניין מגורים יוקרתי בשעת שקיעה" class="hero-bg-image">
+  <img loading="eager" fetchpriority="high" data-hero-bg="true" data-placeholder="index-hero-image-1" data-context="A completed luxury residential building in Israel at golden hour, viewed from a slightly elevated perspective, warm sunlight casting long shadows across the facade, modern architecture with glass balconies and stone cladding, Mediterranean landscaping, cinematic depth of field, 4K quality" width="1200" height="600" src="/assets/site-index-hero-image-1.webp" alt="בניין מגורים יוקרתי בשעת שקיעה" class="hero-bg-image" style="display: none" data-zappy-original-bg="hidden">
 
   <!-- Scrim overlay for text legibility -->
-  <div class="hero-scrim" aria-hidden="true"></div>
+  <div class="hero-scrim" aria-hidden="true" style="display: none" data-zappy-original-bg="hidden"></div>
 
   <!-- Subtle contour-line texture layer -->
-  <div class="hero-texture" aria-hidden="true">
+  <div class="hero-texture" aria-hidden="true" style="position: relative; z-index: 2">
     <svg data-no-icon-edit="true" aria-hidden="true" viewBox="0 0 1200 600" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
       <defs>
         <pattern id="contour-pattern" x="0" y="0" width="200" height="100" patternUnits="userSpaceOnUse">
-          <path d="M0,20 Q50,10 100,20 T200,20" stroke="#B56E4A" stroke-width="0.5" fill="none" opacity="0.08"/>
-          <path d="M0,40 Q50,30 100,40 T200,40" stroke="#B56E4A" stroke-width="0.3" fill="none" opacity="0.06"/>
-          <path d="M0,60 Q50,50 100,60 T200,60" stroke="#B56E4A" stroke-width="0.4" fill="none" opacity="0.07"/>
-          <path d="M0,80 Q50,70 100,80 T200,80" stroke="#B56E4A" stroke-width="0.3" fill="none" opacity="0.05"/>
+          <path d="M0,20 Q50,10 100,20 T200,20" stroke="#B56E4A" stroke-width="0.5" fill="none" opacity="0.08"></path>
+          <path d="M0,40 Q50,30 100,40 T200,40" stroke="#B56E4A" stroke-width="0.3" fill="none" opacity="0.06"></path>
+          <path d="M0,60 Q50,50 100,60 T200,60" stroke="#B56E4A" stroke-width="0.4" fill="none" opacity="0.07"></path>
+          <path d="M0,80 Q50,70 100,80 T200,80" stroke="#B56E4A" stroke-width="0.3" fill="none" opacity="0.05"></path>
         </pattern>
       </defs>
-      <rect width="100%" height="100%" fill="url(#contour-pattern)"/>
+      <rect width="100%" height="100%" fill="url(#contour-pattern)"></rect>
     </svg>
   </div>
 
   <!-- Content overlay group -->
-  <div class="hero-content">
+  <div class="hero-content" style="position: relative; z-index: 2">
     <h1 class="hero-headline">מורשת משפחתית.<br>נדל"ן ברמה אחרת.</h1>
     <h3 class="hero-subtitle">חברת נדל"ן משפחתית בניהול אבא ובן, המתמחה בפרויקטים ייחודיים של בנייני מגורים. אנו מביאים אמון, מסורת ודיוק אדריכלי לכל פרויקט שאנו מובילים.</h3>
     <div class="hero-ctas">
       <a href="/projects" class="hero-btn-primary">
         <span>לצפייה בפרויקטים</span>
         <svg data-element-type="icon" data-icon-type="svg" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <path d="M10 4L14 8L10 12" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-          <path d="M14 8H2" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+          <path d="M10 4L14 8L10 12" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+          <path d="M14 8H2" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"></path>
         </svg>
       </a>
       <a href="/contact" class="hero-btn-secondary">
         <span>צור קשר</span>
         <svg data-element-type="icon" data-icon-type="svg" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <path d="M10 4L14 8L10 12" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-          <path d="M14 8H2" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+          <path d="M10 4L14 8L10 12" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+          <path d="M14 8H2" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"></path>
         </svg>
       </a>
     </div>
   </div>
 
   <!-- Decorative scroll indicator -->
-  <div class="scroll-indicator" aria-hidden="true">
+  <div class="scroll-indicator" aria-hidden="true" style="position: relative; z-index: 2">
     <span class="scroll-label">גללו למטה</span>
     <div class="scroll-line"></div>
   </div>
@@ -890,13 +893,13 @@
     <svg data-no-icon-edit="true" aria-hidden="true" viewBox="0 0 1200 80" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
       <defs>
         <linearGradient id="divider-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
-          <stop offset="0%" stop-color="#2B2623" stop-opacity="0"/>
-          <stop offset="50%" stop-color="#2B2623" stop-opacity="0.4"/>
-          <stop offset="100%" stop-color="#2B2623" stop-opacity="1"/>
+          <stop offset="0%" stop-color="#2B2623" stop-opacity="0"></stop>
+          <stop offset="50%" stop-color="#2B2623" stop-opacity="0.4"></stop>
+          <stop offset="100%" stop-color="#2B2623" stop-opacity="1"></stop>
         </linearGradient>
       </defs>
-      <path d="M0,80 L0,50 L1200,10 L1200,80 Z" fill="var(--bg-light)"/>
-      <path d="M0,52 Q300,38 600,42 T1200,12" stroke="#B56E4A" stroke-width="1" fill="var(--bg-light)" opacity="0.6"/>
+      <path d="M0,80 L0,50 L1200,10 L1200,80 Z" fill="var(--bg-light)"></path>
+      <path d="M0,52 Q300,38 600,42 T1200,12" stroke="#B56E4A" stroke-width="1" fill="var(--bg-light)" opacity="0.6"></path>
     </svg>
   </div>
 </section>
@@ -964,7 +967,7 @@
   <!-- Bottom Divider: Architectural Step Edge -->
   <div class="index-portfolio-section__divider-wrapper" aria-hidden="true" data-no-icon-edit="true">
     <svg viewBox="0 0 1200 80" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
-      <path d="M0,80 L0,0 L400,0 L400,20 L800,20 L800,0 L1200,0 L1200,80 Z" fill="#1A2332"/>
+      <path d="M0,80 L0,0 L400,0 L400,20 L800,20 L800,0 L1200,0 L1200,80 Z" fill="#1A2332"></path>
     </svg>
   </div>
 
@@ -1009,7 +1012,7 @@
 
   <div class="index-stats-section__divider-wrapper" data-no-icon-edit="true" aria-hidden="true">
     <svg viewBox="0 0 1200 80" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
-      <path d="M0,80 L0,30 Q150,20 300,35 T600,25 Q750,35 900,28 T1200,35 L1200,80 Z" fill="#F2EDE6"/>
+      <path d="M0,80 L0,30 Q150,20 300,35 T600,25 Q750,35 900,28 T1200,35 L1200,80 Z" fill="#F2EDE6"></path>
     </svg>
   </div>
 </section>
@@ -1024,8 +1027,8 @@
       <a href="/about" class="index-story-section__cta btn-primary">
         <span>הכירו את הסיפור שלנו</span>
         <svg data-element-type="icon" data-icon-type="svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-          <line x1="5" y1="12" x2="19" y2="12"/>
-          <polyline points="12 5 19 12 12 19"/>
+          <line x1="5" y1="12" x2="19" y2="12"></line>
+          <polyline points="12 5 19 12 12 19"></polyline>
         </svg>
       </a>
     </div>
@@ -1043,9 +1046,9 @@
       <!-- Decorative Stamp Motif -->
       <div class="index-story-section__stamp" aria-hidden="true">
         <svg data-no-icon-edit="true" aria-hidden="true" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <circle cx="60" cy="60" r="58" stroke="var(--accent)" stroke-width="1.5" opacity="0.7"/>
-          <circle cx="60" cy="60" r="50" stroke="var(--accent)" stroke-width="0.5" opacity="0.5"/>
-          <path id="text-path" d="M 25,65 A 35,35 0 1,1 95,65" fill="none"/>
+          <circle cx="60" cy="60" r="58" stroke="var(--accent)" stroke-width="1.5" opacity="0.7"></circle>
+          <circle cx="60" cy="60" r="50" stroke="var(--accent)" stroke-width="0.5" opacity="0.5"></circle>
+          <path id="text-path" d="M 25,65 A 35,35 0 1,1 95,65" fill="none"></path>
           <text font-size="9" fill="var(--accent)" opacity="0.85" font-family="serif" letter-spacing="1">
             <textPath href="#text-path" startOffset="50%" text-anchor="middle">מסורת • איכות • אמון</textPath>
           </text>
@@ -1060,21 +1063,21 @@
     <svg data-no-icon-edit="true" aria-hidden="true" viewBox="0 0 1200 80" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
       <defs>
         <linearGradient id="story-copper-fade" x1="0%" y1="0%" x2="100%" y2="0%">
-          <stop offset="0%" stop-color="var(--accent)" stop-opacity="0"/>
-          <stop offset="15%" stop-color="var(--accent)" stop-opacity="0.8"/>
-          <stop offset="50%" stop-color="var(--accent)" stop-opacity="1"/>
-          <stop offset="85%" stop-color="var(--accent)" stop-opacity="0.8"/>
-          <stop offset="100%" stop-color="var(--accent)" stop-opacity="0"/>
+          <stop offset="0%" stop-color="var(--accent)" stop-opacity="0"></stop>
+          <stop offset="15%" stop-color="var(--accent)" stop-opacity="0.8"></stop>
+          <stop offset="50%" stop-color="var(--accent)" stop-opacity="1"></stop>
+          <stop offset="85%" stop-color="var(--accent)" stop-opacity="0.8"></stop>
+          <stop offset="100%" stop-color="var(--accent)" stop-opacity="0"></stop>
         </linearGradient>
         <linearGradient id="story-bg-fade" x1="0%" y1="0%" x2="0%" y2="100%">
-          <stop offset="0%" stop-color="var(--bg-light)" stop-opacity="0"/>
-          <stop offset="100%" stop-color="var(--bg-light)" stop-opacity="1"/>
+          <stop offset="0%" stop-color="var(--bg-light)" stop-opacity="0"></stop>
+          <stop offset="100%" stop-color="var(--bg-light)" stop-opacity="1"></stop>
         </linearGradient>
       </defs>
       <!-- Fade to next section -->
-      <rect x="0" y="0" width="1200" height="80" fill="url(#story-bg-fade)"/>
+      <rect x="0" y="0" width="1200" height="80" fill="url(#story-bg-fade)"></rect>
       <!-- Copper line -->
-      <rect x="200" y="40" width="800" height="2" fill="url(#story-copper-fade)" rx="1"/>
+      <rect x="200" y="40" width="800" height="2" fill="url(#story-copper-fade)" rx="1"></rect>
     </svg>
   </div>
 </section>
@@ -1095,27 +1098,27 @@
     <svg data-no-icon-edit="true" aria-hidden="true" viewBox="0 0 600 600" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg">
       <defs>
         <radialGradient id="fadeGradient" cx="50%" cy="50%" r="70%">
-          <stop offset="0%" stop-color="var(--bg-dark)" stop-opacity="0"/>
-          <stop offset="60%" stop-color="var(--bg-dark)" stop-opacity="0.4"/>
-          <stop offset="100%" stop-color="var(--bg-dark)" stop-opacity="1"/>
+          <stop offset="0%" stop-color="var(--bg-dark)" stop-opacity="0"></stop>
+          <stop offset="60%" stop-color="var(--bg-dark)" stop-opacity="0.4"></stop>
+          <stop offset="100%" stop-color="var(--bg-dark)" stop-opacity="1"></stop>
         </radialGradient>
         <mask id="patternMask">
-          <rect width="600" height="600" fill="url(#fadeGradient)"/>
+          <rect width="600" height="600" fill="url(#fadeGradient)"></rect>
         </mask>
       </defs>
       <g mask="url(#patternMask)" stroke="var(--border-dark)" stroke-width="0.5" fill="none" opacity="0.6">
-        <path d="M0,50 Q75,40 150,55 T300,50 Q375,45 450,55 T600,50"/>
-        <path d="M0,100 Q75,90 150,105 T300,100 Q375,95 450,105 T600,100"/>
-        <path d="M0,150 Q75,140 150,155 T300,150 Q375,145 450,155 T600,150"/>
-        <path d="M0,200 Q75,190 150,205 T300,200 Q375,195 450,205 T600,200"/>
-        <path d="M0,250 Q75,240 150,255 T300,250 Q375,245 450,255 T600,250"/>
-        <path d="M0,300 Q75,290 150,305 T300,300 Q375,295 450,305 T600,300"/>
-        <path d="M0,350 Q75,340 150,355 T300,350 Q375,345 450,355 T600,350"/>
-        <path d="M0,400 Q75,390 150,405 T300,400 Q375,395 450,405 T600,400"/>
-        <path d="M0,450 Q75,440 150,455 T300,450 Q375,445 450,455 T600,450"/>
-        <path d="M0,500 Q75,490 150,505 T300,500 Q375,495 450,505 T600,500"/>
-        <path d="M0,550 Q75,540 150,555 T300,550 Q375,545 450,555 T600,550"/>
-        <path d="M0,600 Q75,590 150,605 T300,600"/>
+        <path d="M0,50 Q75,40 150,55 T300,50 Q375,45 450,55 T600,50"></path>
+        <path d="M0,100 Q75,90 150,105 T300,100 Q375,95 450,105 T600,100"></path>
+        <path d="M0,150 Q75,140 150,155 T300,150 Q375,145 450,155 T600,150"></path>
+        <path d="M0,200 Q75,190 150,205 T300,200 Q375,195 450,205 T600,200"></path>
+        <path d="M0,250 Q75,240 150,255 T300,250 Q375,245 450,255 T600,250"></path>
+        <path d="M0,300 Q75,290 150,305 T300,300 Q375,295 450,305 T600,300"></path>
+        <path d="M0,350 Q75,340 150,355 T300,350 Q375,345 450,355 T600,350"></path>
+        <path d="M0,400 Q75,390 150,405 T300,400 Q375,395 450,405 T600,400"></path>
+        <path d="M0,450 Q75,440 150,455 T300,450 Q375,445 450,455 T600,450"></path>
+        <path d="M0,500 Q75,490 150,505 T300,500 Q375,495 450,505 T600,500"></path>
+        <path d="M0,550 Q75,540 150,555 T300,550 Q375,545 450,555 T600,550"></path>
+        <path d="M0,600 Q75,590 150,605 T300,600"></path>
       </g>
     </svg>
   </div>
