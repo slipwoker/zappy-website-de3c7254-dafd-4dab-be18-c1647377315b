@@ -7,37 +7,37 @@
 ## Pages
 
 ### בית
-https://example.com
+https://makmal-nadlan.zappy5.app
 משפחת makmal-nadlan, אב ובן, מובילים אתכם הביתה עם פרויקטים ייחודיים ויחס אישי. גלו את הפרויקט החדש שלכם עוד היום וקבלו ליווי צמוד לאורך כל הדרך.
 
 ### פרויקטים
-https://example.com/projects
+https://makmal-nadlan.zappy5.app/projects
 צללו לתיק הפרויקטים המעודכן של makmal-nadlan: בנייה ייחודית, עיצוב מוקפד והקפדה על כל פרט. מצאו את ההזדמנות הנדל״נית הבאה שלכם עוד היום.
 
 ### אודות
-https://example.com/about
+https://makmal-nadlan.zappy5.app/about
 מאחורי makmal-nadlan עומדים אב ובן עם מורשת של אמון ומקצועיות. קראו את הסיפור שלנו וגלו למה אנחנו הרבה מעבר לתיווך נדל״ן סטנדרטי.
 
 ### צור קשר
-https://example.com/contact
+https://makmal-nadlan.zappy5.app/contact
 מוכנים לצעד הבא? צרו קשר עם makmal-nadlan עוד היום וקבלו ייעוץ ראשוני ללא התחייבות. אנחנו כאן כדי להפוך את החלום שלכם למציאות נדל״נית.
 
 ### תודה רבה | מקמל נדל״ן
-https://example.com/thank-you
+https://makmal-nadlan.zappy5.app/thank-you
 תודה על פנייתך. סוכן נדל״ן מקצועי מהצוות שלנו קיבל את ההודעה ויחזור אליך בהקדם האפשרי.
 
 ## Legal & Policy
 
 ### Privacy Policy
-https://example.com/privacy
+https://makmal-nadlan.zappy5.app/privacy
 Information about how user data is collected, stored, and protected.
 
 ### Terms & Conditions
-https://example.com/terms
+https://makmal-nadlan.zappy5.app/terms
 Legal terms describing service usage, rights, and policies.
 
 ### Accessibility Statement
-https://example.com/accessibility
+https://makmal-nadlan.zappy5.app/accessibility
 Information about WCAG compliance and accessibility features.
 
 ---
@@ -47,8 +47,8 @@ Information about WCAG compliance and accessibility features.
 - (No contact details configured yet.)
 
 ### Contact form
-- URL: https://example.com/contact
-- Endpoint: https://example.com/api/email/contact-form
+- URL: https://makmal-nadlan.zappy5.app/contact
+- Endpoint: https://makmal-nadlan.zappy5.app/api/email/contact-form
 - Method: POST
 - Content-Type: application/json
 - Fields:
@@ -77,6 +77,6 @@ Real Estate
 
 # Machine-readable feeds
 
-- Sitemap (XML): https://example.com/sitemap.xml
-- Robots: https://example.com/robots.txt
-- Flattened page text (for LLMs): https://example.com/llms-full.txt
+- Sitemap (XML): https://makmal-nadlan.zappy5.app/sitemap.xml
+- Robots: https://makmal-nadlan.zappy5.app/robots.txt
+- Flattened page text (for LLMs): https://makmal-nadlan.zappy5.app/llms-full.txt
