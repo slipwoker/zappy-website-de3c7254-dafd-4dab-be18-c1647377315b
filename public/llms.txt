@@ -1,0 +1,82 @@
+# makmal-nadlan — Generative Engine Optimization Map
+
+> A family-owned real estate company run by a father and son duo, focused on showcasing building projects. The business has an existing website (makmal-nadla.co.il) that they want to upgrade into a professional project-showcase platform, emphasizing their family heritage and personal touch in the real estate industry.
+
+---
+
+## Pages
+
+### בית
+https://makmal-nadlan-de3c7254.zappy5.app
+משפחת makmal-nadlan, אב ובן, מובילים אתכם הביתה עם פרויקטים ייחודיים ויחס אישי. גלו את הפרויקט החדש שלכם עוד היום וקבלו ליווי צמוד לאורך כל הדרך.
+
+### פרויקטים
+https://makmal-nadlan-de3c7254.zappy5.app/projects
+צללו לתיק הפרויקטים המעודכן של makmal-nadlan: בנייה ייחודית, עיצוב מוקפד והקפדה על כל פרט. מצאו את ההזדמנות הנדל״נית הבאה שלכם עוד היום.
+
+### אודות
+https://makmal-nadlan-de3c7254.zappy5.app/about
+מאחורי makmal-nadlan עומדים אב ובן עם מורשת של אמון ומקצועיות. קראו את הסיפור שלנו וגלו למה אנחנו הרבה מעבר לתיווך נדל״ן סטנדרטי.
+
+### צור קשר
+https://makmal-nadlan-de3c7254.zappy5.app/contact
+מוכנים לצעד הבא? צרו קשר עם makmal-nadlan עוד היום וקבלו ייעוץ ראשוני ללא התחייבות. אנחנו כאן כדי להפוך את החלום שלכם למציאות נדל״נית.
+
+### תודה רבה | מקמל נדל״ן
+https://makmal-nadlan-de3c7254.zappy5.app/thank-you
+תודה על פנייתך. סוכן נדל״ן מקצועי מהצוות שלנו קיבל את ההודעה ויחזור אליך בהקדם האפשרי.
+
+## Legal & Policy
+
+### Privacy Policy
+https://makmal-nadlan-de3c7254.zappy5.app/privacy
+Information about how user data is collected, stored, and protected.
+
+### Terms & Conditions
+https://makmal-nadlan-de3c7254.zappy5.app/terms
+Legal terms describing service usage, rights, and policies.
+
+### Accessibility Statement
+https://makmal-nadlan-de3c7254.zappy5.app/accessibility
+Information about WCAG compliance and accessibility features.
+
+---
+
+## How to Contact Us
+
+- (No contact details configured yet.)
+
+### Contact form
+- URL: https://makmal-nadlan-de3c7254.zappy5.app/contact
+- Endpoint: https://makmal-nadlan-de3c7254.zappy5.app/api/email/contact-form
+- Method: POST
+- Content-Type: application/json
+- Fields:
+  - `name` (text)
+  - `email` (email)
+  - `phone` (tel)
+  - `message` (textarea)
+  - `privacy_consent` (checkbox)
+
+---
+
+# Business Context (for LLM understanding)
+
+## About makmal-nadlan
+A family-owned real estate company run by a father and son duo, focused on showcasing building projects. The business has an existing website (makmal-nadla.co.il) that they want to upgrade into a professional project-showcase platform, emphasizing their family heritage and personal touch in the real estate industry.
+
+## Target Audience
+- משקיעי נדל"ן
+- רוכשי דירות בפעם הראשונה
+- מחפשי בתי יוקרה
+
+## Industry
+Real Estate
+
+---
+
+# Machine-readable feeds
+
+- Sitemap (XML): https://makmal-nadlan-de3c7254.zappy5.app/sitemap.xml
+- Robots: https://makmal-nadlan-de3c7254.zappy5.app/robots.txt
+- Flattened page text (for LLMs): https://makmal-nadlan-de3c7254.zappy5.app/llms-full.txt
