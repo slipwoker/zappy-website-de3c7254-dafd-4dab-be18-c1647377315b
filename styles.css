@@ -73,11 +73,11 @@
   --accent: #C4946A;
   --bg-light: #1A2744;
   --bg-dark: #1A2744;
-  --text-dark: #5c6476;
+  --text-dark: #646a76;
   --text-light: #F0F4F8;
-  --text-muted: #5d6a76;
+  --text-muted: #656e76;
   --border-light: #D0D9E2;
-  --border-dark: #6d7d8f;
+  --border-dark: #7A9BAE;
   --nav-bg: transparent;
   --nav-text: #EAE2D6;
   --nav-text-hover: #D7B777;
@@ -103,8 +103,8 @@
   --accent-color: #C4946A;
   --background-color: #1A2744;
   --surface-color: #F0F4F8;
-  --text-color: #5c6476;
-  --text-secondary-color: #5d6a76;
+  --text-color: #646a76;
+  --text-secondary-color: #656e76;
 }
 
 *, *::before, *::after {
@@ -1773,11 +1773,11 @@ main:not(.courses-page-main) { margin-top: 0 !important; padding-top: 0 !importa
   --accent: #C4946A;
   --bg-light: #1A2744;
   --bg-dark: #1A2744;
-  --text-dark: #5c6476;
+  --text-dark: #646a76;
   --text-light: #F0F4F8;
-  --text-muted: #5d6a76;
+  --text-muted: #656e76;
   --border-light: #D0D9E2;
-  --border-dark: #6d7d8f;
+  --border-dark: #7A9BAE;
   --radius: 8px;
   --shadow: 0 8px 30px rgba(0, 0, 0, 0.14);
   --transition: 0.3s ease;
@@ -6904,7 +6904,7 @@ nav.navbar .sub-menu li a:hover { color: #D7B777 !important; background-color: r
  * defaults for the preferences modal's two secondary pills). */
 #zappy-cookie-banner .zappy-cookie-banner__button--customize {
   background-color: transparent !important;
-  color: #748fca !important;
+  color: #7A9BAE !important;
   border: none !important;
   padding: 0 8px !important;
   height: 32px !important;
@@ -7217,7 +7217,7 @@ nav.navbar .sub-menu li a:hover { color: #D7B777 !important; background-color: r
 #mic-access-tool-general-button svg g {
   fill: #1A2744 !important;
   stroke: #1A2744 !important;
-  color: #748fca !important;
+  color: #7A9BAE !important;
 }
 
 /* Target images if the icon is an img instead of SVG */
@@ -7266,7 +7266,7 @@ div[id*="mic-access-tool-box"] .header * {
 div[id*="mic-access-tool-box"] button.active,
 div[id*="mic-access-tool-box"] button:hover {
   border-color: #1A2744 !important;
-  color: #748fca !important;
+  color: #7A9BAE !important;
   background-color: rgba(43, 38, 35, 0.1) !important;
 }
 
@@ -7311,18 +7311,7 @@ div[id*="mic-access-tool-box"] button[class*="reset"] * {
 /* zappy-self-heal */
 html body .navbar { -webkit-backdrop-filter: blur(12px) !important; }
 
-/* === BUTTON TEXT OVERRIDES START === */
-.btn-secondary,
-.btn--secondary,
-[class*="btn-secondary"],
-[class*="btn--secondary"] { color: #333333 !important; }
-.btn-accent,
-.btn--accent,
-[class*="btn-accent"],
-[class*="btn--accent"] { color: #333333 !important; }
-.navbar .nav-cta-btn,
-.nav-cta-btn { color: #FFFFFF !important; }
-/* === BUTTON TEXT OVERRIDES END === */
+
 
 /* Zappy custom logo size (desktop only — mobile stays at 110px/35px) */
 @media (min-width: 769px) {
@@ -7338,6 +7327,19 @@ html body .navbar { -webkit-backdrop-filter: blur(12px) !important; }
   }
 }
 /* /Zappy custom logo size */
+
+/* === BUTTON TEXT OVERRIDES START === */
+.btn-secondary,
+.btn--secondary,
+[class*="btn-secondary"],
+[class*="btn--secondary"] { color: #333333 !important; }
+.btn-accent,
+.btn--accent,
+[class*="btn-accent"],
+[class*="btn--accent"] { color: #333333 !important; }
+.navbar .nav-cta-btn,
+.nav-cta-btn { color: #FFFFFF !important; }
+/* === BUTTON TEXT OVERRIDES END === */
 
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
@@ -7542,7 +7544,7 @@ nav .sub-menu.zappy-empty-submenu,
   section[data-hero-type*="fullscreen"] {
     height: auto !important;
     min-height: 100svh !important;
-    padding: 0 0 90px 0 !important;
+    padding: 0 clamp(1rem, 5vw, 1.5rem) 90px !important;
   }
   section[data-hero-type*="fullscreen"] > [class*="-container"]:not([class*="bg"]):not([class*="scrim"]):not([class*="divider"]),
   section[data-hero-type*="fullscreen"] > .container {
@@ -7963,7 +7965,7 @@ nav .sub-menu.zappy-empty-submenu,
   section[data-hero-type*="fullscreen"] {
     height: auto !important;
     min-height: 100svh !important;
-    padding: 0 0 90px 0 !important;
+    padding: 0 clamp(1rem, 5vw, 1.5rem) 90px !important;
   }
   section[data-hero-type*="fullscreen"] > [class*="-container"]:not([class*="bg"]):not([class*="scrim"]):not([class*="divider"]),
   section[data-hero-type*="fullscreen"] > .container {
